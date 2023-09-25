@@ -1,0 +1,7 @@
+#Mon May 22 13:29:34 IST 2017
+base.0=C\:\\Users\\acer\\AndroidStudioProjects\\GarbageCollector\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f6d7a417d7d11ad0cc37ada4df837dc540972dec
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\acer\\AndroidStudioProjects\\GarbageCollector\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c5d005a8940aa43a63ee018b4c726d152e534fc1\\classes.dex
+base.1=C\:\\Users\\acer\\AndroidStudioProjects\\GarbageCollector\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c5d005a8940aa43a63ee018b4c726d152e534fc1
+file.0=C\:\\Users\\acer\\AndroidStudioProjects\\GarbageCollector\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f6d7a417d7d11ad0cc37ada4df837dc540972dec\\classes.dex
