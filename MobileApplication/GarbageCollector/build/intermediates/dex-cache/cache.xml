@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\.android\build-cache\da6c8348b169960ff903d06433bf9d60f4dc30f2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dd8d278904649ebf97ae92c2c4b4d6f39da360ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\3c07f9fa98117d044bb61e40fb130694403aa0ef\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\pre-dexed\debug\classes_1d9cda649973f6c8145789e7ee60df932664422d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\.android\build-cache\dde817eedde91d5e5663acdc409f9a8e4b215eb5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f4ec0dd3804b584a05381530b52c04f0d998aa21\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\1e052b9a4b5e3ef359c019787e832e57675edcc0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75d15557ff7531e59b01362d46bb06dd59c5f971">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\pre-dexed\debug\classes_34ce521021e8039c1cddb2fa944db348e741dd7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\dde817eedde91d5e5663acdc409f9a8e4b215eb5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\pre-dexed\debug\classes_f4ec0dd3804b584a05381530b52c04f0d998aa21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\da6c8348b169960ff903d06433bf9d60f4dc30f2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\pre-dexed\debug\classes_dd8d278904649ebf97ae92c2c4b4d6f39da360ed.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f6d7a417d7d11ad0cc37ada4df837dc540972dec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\.android\build-cache\3c07f9fa98117d044bb61e40fb130694403aa0ef\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1d9cda649973f6c8145789e7ee60df932664422d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\.android\build-cache\69e3d5423111461861760b56e0883e8e73b8817c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2497bb7054795e97027a5fa0a40491c36e0f0204\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\.android\build-cache\1e052b9a4b5e3ef359c019787e832e57675edcc0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75d15557ff7531e59b01362d46bb06dd59c5f971">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_34ce521021e8039c1cddb2fa944db348e741dd7e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\7b2e74b02bee185f09b3a9618070f7fcb1d248af\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\pre-dexed\debug\classes_bfbe2b042547f9b12f1b06585af6be5e8ab1111f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\.android\build-cache\a89ed89e81ccdf739c7ea9cc2377d4a65bdb6cb5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_46ba73d0efdc199a7e2b322b3f6fed746b9d2a9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\.android\build-cache\f3e49e6d398c03f0072666b5aff2c48823f4a4e9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2ee412a1d93aaba8b636c929453a698673331857\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\f3e49e6d398c03f0072666b5aff2c48823f4a4e9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\pre-dexed\debug\classes_2ee412a1d93aaba8b636c929453a698673331857.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\6748e46233b9f06f09f5d79f3dbabe1bed606bed\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\pre-dexed\debug\classes_298f3e91a78c6e3891195337623a761be7cbdebc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\.android\build-cache\d42a12e4106a1e8f550b0b06bb286f5af822d6aa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f68a55f5c6f97bd75e6b438b81c7b5ff6921edf3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\.android\build-cache\6748e46233b9f06f09f5d79f3dbabe1bed606bed\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_298f3e91a78c6e3891195337623a761be7cbdebc\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\d42a12e4106a1e8f550b0b06bb286f5af822d6aa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\pre-dexed\debug\classes_f68a55f5c6f97bd75e6b438b81c7b5ff6921edf3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_f27d6d4b4dc52a97a6530cbefd5d139fb7884873.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_f27d6d4b4dc52a97a6530cbefd5d139fb7884873\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\.android\build-cache\bf9eb2c9d255a0a56754fe9e6f400e406ee5c0f7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5a937797e025c38440d15df280617e228e4a04bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\a89ed89e81ccdf739c7ea9cc2377d4a65bdb6cb5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\pre-dexed\debug\classes_46ba73d0efdc199a7e2b322b3f6fed746b9d2a9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\fd470abb40357a4347758bb2b5858f13ded5d5dd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\pre-dexed\debug\classes_d762573e8cc1ce3aec7c5f1d7416a5815fd9fe7d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f413ad6b9acb64801884df7e0571962367cc9929">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c5d005a8940aa43a63ee018b4c726d152e534fc1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\bf9eb2c9d255a0a56754fe9e6f400e406ee5c0f7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\pre-dexed\debug\classes_5a937797e025c38440d15df280617e228e4a04bc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\.android\build-cache\7b2e74b02bee185f09b3a9618070f7fcb1d248af\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bfbe2b042547f9b12f1b06585af6be5e8ab1111f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\.android\build-cache\fd470abb40357a4347758bb2b5858f13ded5d5dd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d762573e8cc1ce3aec7c5f1d7416a5815fd9fe7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\69e3d5423111461861760b56e0883e8e73b8817c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\pre-dexed\debug\classes_2497bb7054795e97027a5fa0a40491c36e0f0204.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acer\.android\build-cache\6385a321537c24d8cacfb24703774ee4424a9576\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aed64b5a93d5b847c1fb355e1c235fa6b15e95c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\.android\build-cache\6385a321537c24d8cacfb24703774ee4424a9576\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\acer\AndroidStudioProjects\GarbageCollector\app\build\intermediates\pre-dexed\debug\classes_aed64b5a93d5b847c1fb355e1c235fa6b15e95c7.jar" />
+    </item>
+
+</items>
