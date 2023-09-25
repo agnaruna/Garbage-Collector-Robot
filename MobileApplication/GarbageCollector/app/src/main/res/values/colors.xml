@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="menutitle">#ffffff</color>
+
+    <drawable name="press_color">#f739ff1a</drawable>
+    <drawable name="seleced_color">#bdea32ed</drawable>
+
+
+</resources>

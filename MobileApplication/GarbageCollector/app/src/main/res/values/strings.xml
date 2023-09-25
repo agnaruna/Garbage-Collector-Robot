@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GC Robot</string>
+    <string name="title_activity_view_tasks">ViewTasksActivity</string>
+    <string name="action_settings">Delete</string>
+    <string name="title_activity_tasks">Task List</string>
+    <string name="rtb_name1">Year, Month</string>
+    <string name="pathdetails">1. create dynamic paths and assign it to the robot</string>
+    <string name="setpathdrtails" >Select the path.
+you can select the path from the drop down. It will list down all  the paths robot will able to go.( app send the char value to the server.each value represent the specific path. )</string>
+    <string name="setdatatime">2. give the date and time. Give the date and  time value to start the garbage collecting send the  data to web server.</string>
+    <string name="settasklist" >3. Get the tasks details from web server. Summries the data on the task list.
+        Delete selected tasks from the list and also web server</string>
+    <string name="aboutsettings" >4. Set path to get Data from  web Server.</string>
+</resources>
