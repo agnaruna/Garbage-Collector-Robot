@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mahisha.garbagecollector.ViewTasksActivity">
+    <item
+        android:id="@+id/id_delete"
+        android:orderInCategory="100"
+        android:icon="@drawable/recybin"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+</menu>

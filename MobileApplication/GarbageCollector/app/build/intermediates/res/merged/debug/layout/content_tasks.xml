@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_tasks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mahisha.garbagecollector.TasksActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:showIn="@layout/activity_tasks">
+
+
+
+    <LinearLayout
+        android:id="@+id/funtionlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+<!--button will be not shown due to visibility is set to gone-->
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+
+           <ImageView
+               android:layout_width="35dp"
+               android:layout_height="45dp"
+               app:srcCompat="@drawable/ic_home_black_24dp"
+               android:id="@+id/imageButtonHome"
+               android:onClick="OpenHomeAct"
+               android:layout_weight="1" />
+
+           <ImageView
+               android:layout_width="35dp"
+               android:layout_height="45dp"
+               android:onClick="Reloadlistview"
+               app:srcCompat="@drawable/ic_refresh_black_24dp"
+               android:id="@+id/imageButtonReload"
+               android:layout_weight="1" />
+
+           <ImageView
+               android:layout_width="35dp"
+               android:layout_height="45dp"
+               app:srcCompat="@drawable/ic_playlist_add_black_24dp"
+               android:id="@+id/imageButtonaddlist"
+               android:onClick="Openpathact"
+               android:layout_weight="1" />
+
+           <ImageView
+               android:layout_width="35dp"
+               android:layout_height="45dp"
+               android:onClick="opensettinwin"
+               app:srcCompat="@drawable/ic_settings_black_24dp"
+               android:id="@+id/imageButtonsettings"
+               android:layout_weight="1" />
+
+       </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:text="Order By"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiolayout"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/rtbgroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:text="View All"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/rtball"
+                        android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="Status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/rtbstats"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="@string/rtb_name1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/rtbdate"
+                    android:layout_weight="1" />
+
+                </RadioGroup>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_marginTop="38dp"
+                    android:textAlignment="center"
+                    android:id="@+id/spinnerstatus"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/Numpickerlayout"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <NumberPicker
+                    android:id="@+id/Numpickeryear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="75dp"></NumberPicker>
+
+                <NumberPicker
+                    android:id="@+id/Numpickermonth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="75dp"></NumberPicker>
+
+
+
+            </LinearLayout>
+
+
+        <Button
+            android:text="Load"
+            android:layout_width="270dp"
+            android:layout_marginTop="25dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="Reloadlistview"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:id="@+id/button3"
+            android:background="@drawable/buttonblank"
+            android:layout_weight="1" />
+
+
+
+    </LinearLayout>
+
+
+
+
+<LinearLayout
+    android:id="@+id/layouttitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:text="Path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/txtpathname"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/txtDatetime"
+        android:layout_weight="1" />
+    <TextView
+        android:text="Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/txtstatus"
+        android:layout_weight="1" />
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/listviewlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/taskslist" />
+    </LinearLayout> <!-- list view display creating as one list -->
+
+
+
+
+</LinearLayout>
