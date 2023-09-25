@@ -1,0 +1,25 @@
+How to install the mobile application?
+
+1.	Before installing the application, change some settings: -
+
+	a.	Setting->Security->Device administration.
+
+	b.	Untick the unknown sources.
+
+
+2.	You can install the app from APK file.
+
+3.	Connect your android phone to internet.
+
+4.	Lunch the app form your phone menu list.
+
+
+5.	Assign the web server address to mobile application 
+ 
+	a.	App Main menu ->Settings
+
+	b.	Put this web address on the text field as a server address
+
+	c.      	gacorobot.000webhostapp.com 
+
+	d.	Then click save button.
