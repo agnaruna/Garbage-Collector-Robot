@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <link rel="shortcut icon" href="Robot 3-48.png" type="image/x-icon"/>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"> </script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 650px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+
+ }
+
+  </style>
+  <script >
+  $(document).ready(function() {
+    $('#loginForm').bootstrapValidator({
+        container: '#messages',
+        feedbackIcons: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+            user: {
+                validators: {
+                    notEmpty: {
+                        message: 'The email address is required and cannot be empty'
+                    },
+                    emailAddress: {
+                        message: 'The email address is not valid'
+                    }
+                }
+            },
+            pass: {
+                validators: {
+                    notEmpty: {
+                        message: 'The Password is required and cannot be empty'
+                    },
+                    stringLength: {
+                        min: 5,
+                        message: 'The Password must be more than 5 characters long'
+                    }
+                }
+            }
+
+        }
+    });
+});
+  </script>
+
+</head>
+<body>
+
+
+<!--navigation bar create-->
+
+
+<nav class="navbar navbar-inverse bg-primary navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <!-- adjust the size of the menu items according screen size-->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand active" href="#">Garbage Collector</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="ViewTasks.php">Tasks</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid text-center"  style="padding-top: 50px;" >
+  <div class="row content">
+    <div class="col-sm-4 sidenav" >
+    <p>  <img src="images-animated-gif.blogspot.com.gif" class="img-responsive" alt="Cinque Terre"  ></P>
+    </div>
+    <div class="col-sm-8 text-left" >
+      <h1>Welcome</h1>
+<p>Garbage collecting Robot will help to collect garbage in an indoor environment (ex: hostel) effectively .</P>
+      <hr>
+      <div class="container">
+    <h2>Admin Login</h2>
+    <form id="loginForm" class="form-horizontal" method="post" action="login.php" novalidate="novalidate">
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">Email:</label>
+        <div class="col-sm-4">
+          <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+          <input type="email" name="user" class="form-control" id="email" placeholder="Enter email" required="true">
+        </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="pwd">Password:</label>
+        <div class="col-sm-4">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+          <input type="password" name="pass" class="form-control" id="pwd" placeholder="Enter password" required="true">
+        </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-log-in"></span> Login</button>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+            <div id="messages"></div>
+        </div>
+   </div>
+    </form>
+  </div>
+    </div>
+
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Create By Samitha Dulanjana Silva</p>
+</footer>
+
+</body>
+</html>
+<!--
+
+<ul class="nav nav-pills">
+<li class="active" ><a href="json_getfrom.html" >Get Json Data</a></li>
+<li><a href="formgetPath.html" >Get Path</a></li>
+<li><a href="insertform.html" >Insert Path</a></li>
+<li><a href="delete_form.html" >delete Path</a></li>
+<li><a href="formupdatestat.html" >Update status</a></li>
+</ul>
+
+-->
